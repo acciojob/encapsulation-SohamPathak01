@@ -6,9 +6,9 @@ public class Main {
         RWOnly a=new RWOnly("Soham");
 
         //System.out.print(a.name);
-        a.getter();
-        a.setter("goku");
-        a.getter();
+        a.getName();
+        a.setName("goku");
+        a.getName();
     }
   
 }
