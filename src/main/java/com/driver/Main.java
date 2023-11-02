@@ -6,6 +6,7 @@ public class Main {
         RWOnly a=new RWOnly("Soham");
 
         //System.out.print(a.name);
+        //'name' has private access in 'com.driver.RWOnly'
         a.getName();
         a.setName("goku");
         a.getName();
