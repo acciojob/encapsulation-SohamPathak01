@@ -11,8 +11,8 @@ public class RWOnly {
     public void setName(String s){
         this.name=s;
     }
-    public void getName(){
-        System.out.println(name);
+    public String getName(){
+        return name;
     }
     
 }

@@ -7,9 +7,9 @@ public class Main {
 
         //System.out.print(a.name);
         //'name' has private access in 'com.driver.RWOnly'
-        a.getName();
+        System.out.println(a.getName());
         a.setName("goku");
-        a.getName();
+        System.out.println(a.getName());
     }
   
 }
